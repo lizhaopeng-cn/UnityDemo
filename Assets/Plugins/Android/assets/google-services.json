@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "456547535367",
+    "firebase_url": "https://arknights-int.firebaseio.com",
+    "project_id": "arknights-int",
+    "storage_bucket": "arknights-int.appspot.com"
+  },
+  "client": [
+
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456547535367:android:6d90b4256dfe8af8be78a2",
+        "android_client_info": {
+          "package_name": "com.YoStarEN.Arknights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456547535367-ia3s5o0mdu2flse8llacahqog1pbertl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.YoStarEN.Arknights",
+            "certificate_hash": "fdc98b92a64aaa2598257368a294023e0eea88c1"
+          }
+        },
+        {
+          "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1yBBBRbssdxpV5Js4adB-aEuhc7HuNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456547535367-kpmoiom0s47e6iv6a0gmba3kf8v74k4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.YoStarKR.Arknights"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456547535367:android:543bd48fd8bc1b43be78a2",
+        "android_client_info": {
+          "package_name": "com.YoStarKR.Arknights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1yBBBRbssdxpV5Js4adB-aEuhc7HuNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456547535367-kpmoiom0s47e6iv6a0gmba3kf8v74k4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.YoStarKR.Arknights"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456547535367:android:e86e5f01ae397555be78a2",
+        "android_client_info": {
+          "package_name": "com.YoStarKR.One.Arknights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1yBBBRbssdxpV5Js4adB-aEuhc7HuNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456547535367-kpmoiom0s47e6iv6a0gmba3kf8v74k4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.YoStarKR.Arknights"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456547535367:android:85da48539de6a623be78a2",
+        "android_client_info": {
+          "package_name": "com.YoStarKR.Samsung.Arknights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1yBBBRbssdxpV5Js4adB-aEuhc7HuNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456547535367-53k3p07sjhionhf55vg586bpcf1i4ffu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456547535367-kpmoiom0s47e6iv6a0gmba3kf8v74k4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.YoStarKR.Arknights"
+              }
+            }
+          ]
+        }
+      }
+    }
+
+
+  ],
+  "configuration_version": "1"
+}

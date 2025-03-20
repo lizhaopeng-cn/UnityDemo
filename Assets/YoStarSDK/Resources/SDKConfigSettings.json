@@ -1,0 +1,507 @@
+{
+ "Version": "",
+ "Regions": {
+  "En": {
+   "Sdk_Url": "https://test-sdk-api.yostarplat.com",
+   "Sdk_Url_Lb": "https://test-sdk-api-bk.yostarplat.com",
+   "Push_Sdk_Url": "https://dev-sdk-callback.yo-star.com",
+   "Sdk_Pid": "US-ARK",
+   "Ali": {
+    "Log": {
+     "Endpoint": "https://stg.static.mulhttps://-pay.jp/ext/js/token.js",
+     "Project": "yostar-oversea-client-logging",
+     "Logstore": "yostar-oversea-client-logging",
+     "Access_Key_Id": "f9762571ffd7f47e22d69ea0222d4fa8d901770cd15292147d3eb41c908a1909",
+     "Access_Key_Secret": "3ca9425e1b98eb3f48e4d58de00e025409cab1eca28255747b744794d6428ef6"
+    },
+    "Internet_Detection": {
+     "Init": {
+      "Secret_Key": "eyJhbGl5dW5fdWlkIjoiMTI5NDA1ODU3MDYyMTk5MCIsImlwYV9hcHBfaWQiOiJMNFFSSG1zNzdqdW5WSGNCWTZVd1ZLIiwic2VjX2tleSI6ImM2YzAxZDZhNTZkZjdlMTY3Yjg2MmFjM2EwYzQ5MTJlN2RmZTRmNjIxMTc1YTZkOGI5ZjcxYWJhYWY2YWNjYmQ2MTg1ZjVmMmYxMTVkMTczNjg5MGRlYWU0Nzg0MTI0NzFmZGNjMmRlOWUwMWMyNmJhOTdmZDA0YTJkM2IxZjUwIiwic2lnbiI6ImQxOGQwZTc0YjFhYWIzZmVlYWNmNDY2ZTYyYjQyMDZmYzA4NWFmMjJiN2ZjODQ1MDYzMjM3MDNlOGVkOGUxNGU5ZWI0ZGM3YjllOTFiNzE3NmUxZTBmYjBhOTU1OWQxMTFhM2QyMzU2YTQyNWQ1YTlkNGI1ZWMxMWQxYjY0NTBjIn0=",
+      "Endpoint": "https://ap-southeast-1.log.aliyuncs.com",
+      "Project": "yostar-oversea-netsdk-logging",
+      "Access_Key_Id": "f9762571ffd7f47e22d69ea0222d4fa8d901770cd15292147d3eb41c908a1909",
+      "Access_Key_Secret": "3ca9425e1b98eb3f48e4d58de00e025409cab1eca28255747b744794d6428ef6"
+     },
+     "Internet_Url": "https://www.google.cn",
+     "Auto_Url": {
+      "HTTP": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "PING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "TCPPING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "MTR": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "DNS": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ]
+     }
+    }
+   },
+   "AppStore": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_0e9057d5577680b17751f5b1a60c746f",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "GooglePlay": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_59d69b706fdb43d6b51c43a907b61fbb",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_2f103fa4-e158-4556-9b6d-8685fdb0af6c",
+    "Help_Page_Url": "222",
+    "Pgs_Appid": "tt",
+    "Fcm_Push_Switch": 0
+   },
+   "Amazon": {
+    "FB_AppId": "432423",
+    "FB_ClientToken": "12312",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "1111",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "PC": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "313",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "OneStore": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Samsung": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   }
+  },
+  "Kr": {
+   "Sdk_Url": "https://test-sdk-api.yostarplat.com",
+   "Sdk_Url_Lb": "https://test-sdk-api-bk.yostarplat.com",
+   "Push_Sdk_Url": "https://dev-sdk-callback.yo-star.com",
+   "Sdk_Pid": "KR-ARK",
+   "Ali": {
+    "Log": {
+     "Endpoint": "https://stg.static.mul-pay.jp/ext/js/token.js",
+     "Project": "yostar-oversea-client-logging",
+     "Logstore": "yostar-oversea-client-logging",
+     "Access_Key_Id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+     "Access_Key_Secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+    },
+    "Internet_Detection": {
+     "Init": {
+      "Secret_Key": "eyJhbGl5dW5fdWlkIjoiMTI5NDA1ODU3MDYyMTk5MCIsImlwYV9hcHBfaWQiOiJMNFFSSG1zNzdqdW5WSGNCWTZVd1ZLIiwic2VjX2tleSI6ImM2YzAxZDZhNTZkZjdlMTY3Yjg2MmFjM2EwYzQ5MTJlN2RmZTRmNjIxMTc1YTZkOGI5ZjcxYWJhYWY2YWNjYmQ2MTg1ZjVmMmYxMTVkMTczNjg5MGRlYWU0Nzg0MTI0NzFmZGNjMmRlOWUwMWMyNmJhOTdmZDA0YTJkM2IxZjUwIiwic2lnbiI6ImQxOGQwZTc0YjFhYWIzZmVlYWNmNDY2ZTYyYjQyMDZmYzA4NWFmMjJiN2ZjODQ1MDYzMjM3MDNlOGVkOGUxNGU5ZWI0ZGM3YjllOTFiNzE3NmUxZTBmYjBhOTU1OWQxMTFhM2QyMzU2YTQyNWQ1YTlkNGI1ZWMxMWQxYjY0NTBjIn0=",
+      "Endpoint": "https://ap-southeast-1.log.aliyuncs.com",
+      "Project": "yostar-oversea-netsdk-logging",
+      "Access_Key_Id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+      "Access_Key_Secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+     },
+     "Internet_Url": "https://www.google.com",
+     "Auto_Url": {
+      "HTTP": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "PING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "TCPPING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com1"
+      ],
+      "MTR": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "DNS": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ]
+     }
+    }
+   },
+   "AppStore": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_0e9057d5577680b17751f5b1a60c746f",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 1
+   },
+   "GooglePlay": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_4091e70f20dd13f7d7c13895c5844a6b",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "OneStore": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "5",
+    "Aihelp_Domain": "4",
+    "Aihelp_Appid": "3",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Amazon": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "PC": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "44",
+    "Aihelp_Domain": "55",
+    "Aihelp_Appid": "33",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Samsung": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "3",
+    "Aihelp_Domain": "4",
+    "Aihelp_Appid": "2",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   }
+  },
+  "Jp": {
+   "Sdk_Url": "https://test-sdk-api.yostarplat.com",
+   "Sdk_Url_Lb": "https://test-sdk-api-bk.yostarplat.com",
+   "Push_Sdk_Url": "https://dev-sdk-callback.yo-star.com",
+   "Sdk_Pid": "JP-ARK",
+   "Ali": {
+    "Log": {
+     "Endpoint": "https://ap-southeast-1.log.aliyuncs.com",
+     "Project": "yostar-oversea-client-logging",
+     "Logstore": "yostar-oversea-client-logging",
+     "Access_Key_Id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+     "Access_Key_Secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+    },
+    "Internet_Detection": {
+     "Init": {
+      "Secret_Key": "eyJhbGl5dW5fdWlkIjoiMTI5NDA1ODU3MDYyMTk5MCIsImlwYV9hcHBfaWQiOiJMNFFSSG1zNzdqdW5WSGNCWTZVd1ZLIiwic2VjX2tleSI6ImM2YzAxZDZhNTZkZjdlMTY3Yjg2MmFjM2EwYzQ5MTJlN2RmZTRmNjIxMTc1YTZkOGI5ZjcxYWJhYWY2YWNjYmQ2MTg1ZjVmMmYxMTVkMTczNjg5MGRlYWU0Nzg0MTI0NzFmZGNjMmRlOWUwMWMyNmJhOTdmZDA0YTJkM2IxZjUwIiwic2lnbiI6ImQxOGQwZTc0YjFhYWIzZmVlYWNmNDY2ZTYyYjQyMDZmYzA4NWFmMjJiN2ZjODQ1MDYzMjM3MDNlOGVkOGUxNGU5ZWI0ZGM3YjllOTFiNzE3NmUxZTBmYjBhOTU1OWQxMTFhM2QyMzU2YTQyNWQ1YTlkNGI1ZWMxMWQxYjY0NTBjIn0=",
+      "Endpoint": "https://ap-southeast-1.log.aliyuncs.com",
+      "Project": "yostar-oversea-netsdk-logging",
+      "Access_Key_Id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+      "Access_Key_Secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+     },
+     "Internet_Url": "https://www.google.com",
+     "Auto_Url": {
+      "HTTP": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "PING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "TCPPING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "MTR": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "DNS": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ]
+     }
+    }
+   },
+   "AppStore": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_0e9057d5577680b17751f5b1a60c746f",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "GooglePlay": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "https://aethergazer.jp/cs",
+    "Pgs_Appid": "456547535367",
+    "Fcm_Push_Switch": 0
+   },
+   "Amazon": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_4091e70f20dd13f7d7c13895c5844a6b",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "PC": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "https://aethergazer.jp/cs",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "OneStore": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Samsung": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   }
+  },
+  "Tw": {
+   "Sdk_Url": "https://test-sdk-api.yostarplat.com",
+   "Sdk_Url_Lb": "https://test-sdk-api-bk.yostarplat.com",
+   "Push_Sdk_Url": "https://dev-sdk-callback.yo-star.com",
+   "Sdk_Pid": "TW-ARK",
+   "Ali": {
+    "Log": {
+     "Endpoint": "https://stg.static.mulhttps://-pay.jp/ext/js/token.js",
+     "Project": "yostar-oversea-client-logging",
+     "Logstore": "yostar-oversea-client-logging",
+     "Access_Key_Id": "f9762571ffd7f47e22d69ea0222d4fa8d901770cd15292147d3eb41c908a1909",
+     "Access_Key_Secret": "3ca9425e1b98eb3f48e4d58de00e025409cab1eca28255747b744794d6428ef6"
+    },
+    "Internet_Detection": {
+     "Init": {
+      "Secret_Key": "eyJhbGl5dW5fdWlkIjoiMTI5NDA1ODU3MDYyMTk5MCIsImlwYV9hcHBfaWQiOiJMNFFSSG1zNzdqdW5WSGNCWTZVd1ZLIiwic2VjX2tleSI6ImM2YzAxZDZhNTZkZjdlMTY3Yjg2MmFjM2EwYzQ5MTJlN2RmZTRmNjIxMTc1YTZkOGI5ZjcxYWJhYWY2YWNjYmQ2MTg1ZjVmMmYxMTVkMTczNjg5MGRlYWU0Nzg0MTI0NzFmZGNjMmRlOWUwMWMyNmJhOTdmZDA0YTJkM2IxZjUwIiwic2lnbiI6ImQxOGQwZTc0YjFhYWIzZmVlYWNmNDY2ZTYyYjQyMDZmYzA4NWFmMjJiN2ZjODQ1MDYzMjM3MDNlOGVkOGUxNGU5ZWI0ZGM3YjllOTFiNzE3NmUxZTBmYjBhOTU1OWQxMTFhM2QyMzU2YTQyNWQ1YTlkNGI1ZWMxMWQxYjY0NTBjIn0=",
+      "Endpoint": "https://ap-southeast-1.log.aliyuncs.com",
+      "Project": "yostar-oversea-netsdk-logging",
+      "Access_Key_Id": "f9762571ffd7f47e22d69ea0222d4fa8d901770cd15292147d3eb41c908a1909",
+      "Access_Key_Secret": "3ca9425e1b98eb3f48e4d58de00e025409cab1eca28255747b744794d6428ef6"
+     },
+     "Internet_Url": "https://www.google.cn",
+     "Auto_Url": {
+      "HTTP": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "PING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "TCPPING": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "MTR": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ],
+      "DNS": [
+       "https://www.baidu.com",
+       "https://www.youtube.com"
+      ]
+     }
+    }
+   },
+   "AppStore": {
+    "FB_AppId": "1168277143355360",
+    "FB_ClientToken": "0daf98fb545edc2bb9ff234111f83454",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_0e9057d5577680b17751f5b1a60c746f",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "GooglePlay": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "www.taobao.com",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Amazon": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "PC": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "YOSTAR_app_85e52116cbb649cf8665a5d947852c0b",
+    "Aihelp_Domain": "yostar.aihelp.net",
+    "Aihelp_Appid": "yostar_platform_4091e70f20dd13f7d7c13895c5844a6b",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "OneStore": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   },
+   "Samsung": {
+    "FB_AppId": "",
+    "FB_ClientToken": "",
+    "TW_Key": "",
+    "Aihelp_Api_Key": "",
+    "Aihelp_Domain": "",
+    "Aihelp_Appid": "",
+    "Help_Page_Url": "",
+    "Pgs_Appid": "",
+    "Fcm_Push_Switch": 0
+   }
+  }
+ },
+ "Plist": {
+  "De": {
+   "User_Tracking_Usage_Description": "55",
+   "Camera_Usage_Description": "88",
+   "Micro_phone_Usage_Description": "5453",
+   "Photo_Library_Description": "777",
+   "Photo_Library_Add_Usage_Description": "777",
+   "Location_Description": "33"
+  },
+  "En": {
+   "User_Tracking_Usage_Description": "英语",
+   "Camera_Usage_Description": "英语",
+   "Micro_phone_Usage_Description": "英语",
+   "Photo_Library_Description": "英语",
+   "Photo_Library_Add_Usage_Description": "英语",
+   "Location_Description": "英语"
+  },
+  "Fr": {
+   "User_Tracking_Usage_Description": "44",
+   "Camera_Usage_Description": "77",
+   "Micro_phone_Usage_Description": "---",
+   "Photo_Library_Description": "666",
+   "Photo_Library_Add_Usage_Description": "666",
+   "Location_Description": "22"
+  },
+  "Jp": {
+   "User_Tracking_Usage_Description": "日语",
+   "Camera_Usage_Description": "日语",
+   "Micro_phone_Usage_Description": "日语",
+   "Photo_Library_Description": "日语",
+   "Photo_Library_Add_Usage_Description": "日语",
+   "Location_Description": "日语"
+  },
+  "Kr": {
+   "User_Tracking_Usage_Description": "33",
+   "Camera_Usage_Description": "66",
+   "Micro_phone_Usage_Description": "韩语",
+   "Photo_Library_Description": "555",
+   "Photo_Library_Add_Usage_Description": "555",
+   "Location_Description": "11"
+  },
+  "Tw": {
+   "User_Tracking_Usage_Description": "繁体中文",
+   "Camera_Usage_Description": "繁体中文",
+   "Micro_phone_Usage_Description": "繁体中文",
+   "Photo_Library_Description": "繁体中文",
+   "Photo_Library_Add_Usage_Description": "繁体中文",
+   "Location_Description": "繁体中文"
+  }
+ }
+}
