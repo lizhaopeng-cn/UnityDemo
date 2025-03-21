@@ -7,7 +7,7 @@ public class Hello : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hello World");
+        Debug.Log("Hello World1");
         SpriteRenderer sr = this.gameObject.GetComponent<SpriteRenderer>();
         sr.flipY = true;
     }
